@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Eyes Tracking.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>EC2F5343C8E352FB9B0EAF9106359A1F11DD12A7</string>
+				<key>dateExpires</key>
+				<string>9/2/20</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>EC2F5343C8E352FB9B0EAF9106359A1F11DD12A7</string>
+						<key>dateExpires</key>
+						<string>9/2/20</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>GTMSessionFetcher.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>V85BHS3Q48</string>
+						<key>name</key>
+						<string>Shaheed Ahmed Dewan Sagar</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>EC2F5343C8E352FB9B0EAF9106359A1F11DD12A7</string>
+						<key>dateExpires</key>
+						<string>9/2/20</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>GoogleUtilities.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>V85BHS3Q48</string>
+						<key>name</key>
+						<string>Shaheed Ahmed Dewan Sagar</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>EC2F5343C8E352FB9B0EAF9106359A1F11DD12A7</string>
+						<key>dateExpires</key>
+						<string>9/2/20</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Mute.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>V85BHS3Q48</string>
+						<key>name</key>
+						<string>Shaheed Ahmed Dewan Sagar</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>EC2F5343C8E352FB9B0EAF9106359A1F11DD12A7</string>
+						<key>dateExpires</key>
+						<string>9/2/20</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Protobuf.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>V85BHS3Q48</string>
+						<key>name</key>
+						<string>Shaheed Ahmed Dewan Sagar</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>EC2F5343C8E352FB9B0EAF9106359A1F11DD12A7</string>
+						<key>dateExpires</key>
+						<string>9/2/20</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>grpc.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>V85BHS3Q48</string>
+						<key>name</key>
+						<string>Shaheed Ahmed Dewan Sagar</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>EC2F5343C8E352FB9B0EAF9106359A1F11DD12A7</string>
+						<key>dateExpires</key>
+						<string>9/2/20</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>grpcpp.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>V85BHS3Q48</string>
+						<key>name</key>
+						<string>Shaheed Ahmed Dewan Sagar</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>EC2F5343C8E352FB9B0EAF9106359A1F11DD12A7</string>
+						<key>dateExpires</key>
+						<string>9/2/20</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>leveldb.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>V85BHS3Q48</string>
+						<key>name</key>
+						<string>Shaheed Ahmed Dewan Sagar</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>EC2F5343C8E352FB9B0EAF9106359A1F11DD12A7</string>
+						<key>dateExpires</key>
+						<string>9/2/20</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>nanopb.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>V85BHS3Q48</string>
+						<key>name</key>
+						<string>Shaheed Ahmed Dewan Sagar</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>EC2F5343C8E352FB9B0EAF9106359A1F11DD12A7</string>
+						<key>dateExpires</key>
+						<string>9/2/20</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>openssl_grpc.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>V85BHS3Q48</string>
+						<key>name</key>
+						<string>Shaheed Ahmed Dewan Sagar</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>V85BHS3Q48.com.shaheed.thirdeye</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>V85BHS3Q48</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>V85BHS3Q48.com.shaheed.thirdeye</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Eyes Tracking.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>973b10a0-cf15-4045-be98-5579b5b64236</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>V85BHS3Q48</string>
+				<key>name</key>
+				<string>Shaheed Ahmed Dewan Sagar</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
