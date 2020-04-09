@@ -1,7 +1,9 @@
 package dao;
 
 import java.util.Map;
-
+/**
+Base model class to hold the Activity coming from Firebase 
+*/
 public class Activity {
 
     public static String TYPE_TAP = "tap";

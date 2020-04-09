@@ -1,7 +1,9 @@
 package dao;
 
 import java.util.List;
-
+/**
+Base model class to hold the tests coming from Firebase
+*/
 public class Test {
 
     private String id;

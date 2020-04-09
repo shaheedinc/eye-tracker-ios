@@ -16,9 +16,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
-
+/**
+This generates a CSV file based on the records in Firebase
+*/
 public class Main {
 
+    // Variable to hold individual tests
     private List<Test> tests = new ArrayList<>();
 
     public static void main(String[] args) {
@@ -26,6 +29,7 @@ public class Main {
     }
 
     private void run() {
+        // Initializing firebase to read the documents
         try {
             FileInputStream serviceAccount = new FileInputStream("eyetrack-4e6b3-firebase-adminsdk-aporm-b730fee2ef.json");
             FirebaseOptions options = new FirebaseOptions.Builder()
@@ -37,10 +41,12 @@ public class Main {
 
             Firestore db = FirestoreClient.getFirestore();
 
+            //Getting all the tests from Firebase
             ApiFuture<QuerySnapshot> query = db.collection("tests").get();
 
             QuerySnapshot querySnapshot = query.get();
             List<QueryDocumentSnapshot> documents = querySnapshot.getDocuments();
+            // Parsing the documents and adding them to our list to process
             for (QueryDocumentSnapshot document : documents) {
                 Test test = document.toObject(Test.class);
                 test.setId(document.getId());
@@ -52,8 +58,11 @@ public class Main {
             System.out.println("Preparing CSV file(s)");
 
             int testCount = 1;
+            // Parsing each individual test separately
             for(Test test: tests) {
+                //Generating a new csv file to hold the results
                 FileWriter fileWriter = new FileWriter("parsedData/" + test.getParticipantId() + "-" + test.getId() + ".csv");
+                // Setting the column names
                 fileWriter.append("Type");
                 fileWriter.append(",");
                 fileWriter.append("Time Stamp (ms)");
@@ -69,11 +78,13 @@ public class Main {
                 fileWriter.append("Target URL");
                 fileWriter.append("\n");
 
+                // Variables used to calculate distraction time
                 boolean wasDistracted = false;
                 long distractionStartTime = 0;
                 long distractionEndTime = 0;
                 boolean firstTapDetected = false;
                 boolean lookedBackInDisplay = false;
+                // Adding each activities separately
                 for (Activity activity: test.getActivities()) {
                     fileWriter.append(activity.getType());
                     fileWriter.append(",");
@@ -122,6 +133,7 @@ public class Main {
                     fileWriter.append("\n");
                 }
 
+                // Closing the file
                 fileWriter.flush();
                 fileWriter.close();
                 System.out.println("Done parsing test: "+(testCount++));
