@@ -1,8 +1,6 @@
 # Eye-Tracker-IOS
 An IOS app that can detect if the user is looking on the screen or not.
 
-[![GitHub stars](https://img.shields.io/github/stars/antoinelame/GazeTracking.svg?style=social)](https://github.com/shaheedinc/eye-tracker-ios)
-
 ## Installation
 
 Clone this project:
