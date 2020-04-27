@@ -1,5 +1,5 @@
-# Eye-Tracker-IOS
-An IOS app that can detect if the user is looking on the screen or not.
+# Eye-Tracker-iOS
+An iOS app that can detect if the user is looking on the screen or not.
 
 ## Installation
 
@@ -13,7 +13,7 @@ Install the dependencies:
 
 ```
 cd eye-tracker-ios
-cd IOS App
+cd iOS App
 pod install
 ```
 
@@ -21,9 +21,9 @@ pod install
 
 ## Configure Firebase
 
-1. Create a firebase app using the firebase console.
-2. Add an IOS app on the firebase console.
-3. Copy and paste the GoogleService-Info.plist file on your IOS Application's root directory.
+1. Create a firebase app using the Firebase console.
+2. Add an iOS app on the Firebase console.
+3. Copy and paste the GoogleService-Info.plist file on your iOS Application's root directory.
 
 Run the App:
 
@@ -33,7 +33,7 @@ Use the play button on XCode
 ```
 
 # Eye-Tracker-Data-Parser
-A java application that can parse the data from firebase and give you a csv file of the session records
+A Java application that can parse the data from firebase and give you a csv file of the session records
 
 ## Installation
 
@@ -57,12 +57,12 @@ mvn build
 1. Log into the same firebase account.
 2. In the Firebase console, open Settings > Service Accounts.
 3. Click Generate New Private Key, then confirm by clicking Generate Key.
-4. Copy and paste the JSON file containing the key to the root of the JAVA application.
+4. Copy and paste the JSON file containing the key to the root of the Java application.
 5. Update the name of the file on Main.java line number 34.
 6. Update the database url on Main.java line number 37.
 
 Run the App:
 
 ```
-Open the file using Intellij Idea and run the Main.java file.
+Open the file using IntelliJ IDEA and run the Main.java file.
 ```
