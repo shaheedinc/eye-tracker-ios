@@ -66,3 +66,10 @@ Run the App:
 ```
 Open the file using IntelliJ IDEA and run the Main.java file.
 ```
+
+## How it works
+
+1. The mobile app asks for a participant id when launched. This id is used to create a Firebase database object. This id is later used to identify different participants. 
+2. After the database object is created, the app goes through a training process to accurately determine the boundaries of the screen. In this process, 8 separate red dots are shown in 8 edges of the screen, and the eye position is recorded. These records are later used to adjust the boundaries of the screen.
+3. When the training is completed, the app loads Google's default search page using the internal WebKit library and starts to record all the activities on the database.
+4. The app saves all the latest activities on the database as soon as the app enters background mode. So to make sure all the activities are saved, we need to shift the app to the background.
